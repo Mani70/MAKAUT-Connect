@@ -62,3 +62,14 @@ section{
 #footer a:hover{
   color: #fff;
 }
+#toTopBtn{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 3px;
+  transition: opacity 0.2s ease-out;
+  opacity: 0;
+}
+#toTopBtn.show{
+  opacity: 1;
+}

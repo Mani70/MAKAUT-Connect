@@ -97,6 +97,7 @@
         </div>
       </div>
     </section>
+    <a href="#top" id="toTopBtn" title="Scroll to Top"><i class="fa fa-3x fa-hand-o-up"></i></a>
     <footer id="footer">
       &copy; All rights reserved by <a href="https://bytesclub.github.io" target="_blank">Bytes Club</a>
     </footer>
@@ -105,10 +106,20 @@
     <!-- Bootstrap Core JavaScript-->
     <script src="scripts/bootstrap.min.js"></script>
     <script>
+    $(window).on('scroll', function() {
+      if($(window).scrollTop() > 80)
+        $("a[href='#top']").addClass('show')
+      else
+        $("a[href='#top']").removeClass('show')
+    })
     $('#tabList a').click(function (e) {
       e.preventDefault()
       $(this).tab('show')
     })
+    $($("#toTopBtn").click(function(e) {
+      e.preventDefault()
+      $("html, body").animate({ scrollTop: 0 }, 400, "swing")
+    }))
     </script>
   </body>
 </html>
