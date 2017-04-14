@@ -24,18 +24,65 @@
     <meta name="author" content="Bytes Club">
     <meta name="keyword" content="Node,Bytes,Club,MAKAUT,Web,App">
     <title>MAKAUT-Connect</title>
-		<!-- Bootstrap Core CSS-->
+    <!-- Bootstrap Core CSS-->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom Fonts-->
     <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- Custom CSS-->
+    <link href="assets/css/style.css" rel="stylesheet">
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">
+            Maulana Abul Kalama Azad University of Technology Student Portal
+          </a>
+        </div>
+        <button type="button" class="btn-default navbar-btn navbar-right">
+          <i class="fa fa-sign-out"></i>
+        </button>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <ul class="nav nav-pills nav-justified" role="tablist" id="tabList">
+        <li role="presentation" class="active">
+          <a href="#feed">
+            <i class="fa fa-feed" title="News Feed"></i>
+            <span class="hidden-sm">News Feed</span>
+          </a>
+        </li>
+        <li role="presentation">
+          <a href="#notif">
+            <i class="fa fa-globe" title="Notification"></i>
+            <span class="hidden-sm">Notification</span>
+            <span class="badge">42</span>
+          </a>
+        </li>
+        <li role="presentation">
+          <a href="#profile">
+            <i class="fa fa-user" title="Your Profile"></i>
+            <span class="hidden-sm">Your Profile</span>
+          </a>
+        </li>
+      </ul>
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="feed">News Feed Here</div>
+        <div role="tabpanel" class="tab-pane" id="notif">Notification Here</div>
+        <div role="tabpanel" class="tab-pane" id="profile">Profile Here</div>
+      </div>
+    </div>
     <!-- jQuery-->
     <script src="scripts/jquery.min.js"></script>
     <!-- Bootstrap Core JavaScript-->
     <script src="scripts/bootstrap.min.js"></script>
+    <script>
+    $('#tabList a').click(function (e) {
+      e.preventDefault()
+      $(this).tab('show')
+    })
+    </script>
   </body>
 </html>
