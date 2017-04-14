@@ -5,6 +5,9 @@
  * Apache Public License 2.0
  */
 
+body{
+  padding-top: 80px;
+}
 body::-webkit-scrollbar-track{
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
   border-radius: 10px;
@@ -32,6 +35,10 @@ section{
 }
 .navlist{
   background-color: #c9e2ef;
+}
+#tabList > li{
+  border-left: 1px outset #a4b3ea;
+  border-right: 1px outset #a4b3ea;
 }
 .tab-content{
   min-height: 700px;
