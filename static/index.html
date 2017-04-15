@@ -38,8 +38,8 @@
       <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">
-	      <img src="assets/images/logo2.png" align="right" style="width:395px;height:120px;">
+            <a class="navbar-brand" href="#top">
+              <img src="assets/images/logo2.png" align="left" id="brand-img">
               Maulana Abul Kalama Azad University of Technology Student Portal
             </a>
           </div>
@@ -98,26 +98,19 @@
         </div>
       </div>
     </section>
-    <a href="#top" id="toTopBtn" title="Scroll to Top"><i class="fa fa-3x fa-hand-o-up"></i></a>
     <footer id="footer">
       &copy; All rights reserved by <a href="https://bytesclub.github.io" target="_blank">Bytes Club</a>
     </footer>
     <!-- jQuery-->
-    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/vendor/jquery.min.js"></script>
     <!-- Bootstrap Core JavaScript-->
-    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/vendor/bootstrap.min.js"></script>
     <script>
-    $(window).on('scroll', function() {
-      if($(window).scrollTop() > 80)
-        $("a[href='#top']").addClass('show')
-      else
-        $("a[href='#top']").removeClass('show')
-    })
     $('#tabList a').click(function (e) {
       e.preventDefault()
       $(this).tab('show')
     })
-    $($("#toTopBtn").click(function(e) {
+    $($("a[href='#top']").click(function(e) {
       e.preventDefault()
       $("html, body").animate({ scrollTop: 0 }, 400, "swing")
     }))

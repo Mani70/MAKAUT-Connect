@@ -6,6 +6,7 @@
  */
 
 body{
+  background: #fff url('../images/logo.png') no-repeat center;
   padding-top: 80px;
 }
 body::-webkit-scrollbar-track{
@@ -19,7 +20,7 @@ body::-webkit-scrollbar{
 }
 body::-webkit-scrollbar-thumb{
   border-radius: 10px;
-  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
   background-color: #555;
 }
 header .navbar{
@@ -30,7 +31,12 @@ header .navbar{
 .navbar-header a{
   color: #fff !important;
 }
+#brand-img{
+  height: 50px;
+  padding-right: 10px;
+}
 section{
+  background-color: rgba(255,255,255,0.95);
   margin: 10px;
 }
 .navlist{
@@ -61,15 +67,4 @@ section{
 }
 #footer a:hover{
   color: #fff;
-}
-#toTopBtn{
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  margin: 3px;
-  transition: opacity 0.2s ease-out;
-  opacity: 0;
-}
-#toTopBtn.show{
-  opacity: 1;
 }
