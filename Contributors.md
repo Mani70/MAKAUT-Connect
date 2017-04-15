@@ -1,4 +1,4 @@
-## MAKAUT-Connect
+## MAKAUT-Connect [![Build Status](https://travis-ci.org/BytesClub/MAKAUT-Connect.svg?branch=master)](https://travis-ci.org/BytesClub/MAKAUT-Connect)
 
 ### [Copyright 2017 Bytes Club](https://github.com/BytesClub/MAKAUT-Connect/blob/master/LICENSE)
 
