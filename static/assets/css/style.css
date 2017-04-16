@@ -27,6 +27,10 @@ header .navbar{
   background-color: #cc0066 !important;
   height: 70px;
   box-shadow: 5px 5px 5px #888888;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 .navbar-header a{
   color: #fff !important;

@@ -1,8 +1,8 @@
 const webpack = require('webpack'),
       path = require('path')
 
-let BUILD_DIR = path.resolve(__dirname, 'static/scripts')
-let APP_DIR = path.resolve(__dirname, 'components')
+var BUILD_DIR = path.resolve(__dirname, 'static/scripts')
+var APP_DIR = path.resolve(__dirname, 'components')
 
 var config = {
   entry: APP_DIR + '/app.jsx',
