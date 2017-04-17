@@ -1,0 +1,3 @@
+## MAKAUT-Connect [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Build Status](https://travis-ci.org/BytesClub/MAKAUT-Connect.svg?branch=master)](https://travis-ci.org/BytesClub/MAKAUT-Connect) [![gitter](https://badges.gitter.im/gitterHQ/gitterHQ.github.io.svg)](https://gitter.im/Bytes_Club/General)
+
+A Social platform for Student Portal of Maulana Abul Kalam Azaad Univerity of Technology In-house Students
