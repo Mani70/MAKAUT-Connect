@@ -1,3 +1,4 @@
+/*! makaut-connect - 1.0.0 | (c) 2017,  Bytes Club | Apache-2.0 | https://github.com/BytesClub/MAKAUT-Connect#readme */
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -60,7 +61,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "D:\\My Page\\MAKAUT-Connect\\static";
 /******/
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(__webpack_require__.s = 0);
