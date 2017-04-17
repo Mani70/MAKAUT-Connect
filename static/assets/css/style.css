@@ -55,6 +55,26 @@ section{
   margin-top: 30px;
   margin-bottom: 30px;
 }
+.media{
+  background-color: rgba(222, 224, 226, 0.8);
+  border-color: rgb(194, 196, 198);
+  border-radius: 10px;
+  border-style: outset;
+  padding: 5px;
+}
+.media-body{
+	font-size: 20px;
+}
+.i-thumbnail{
+  max-height:40px;
+  padding: 5px;
+  cursor: pointer;
+}
+.timestamp{
+	font-size: 15px;
+  font-style: italic;
+  padding: 5px;
+}
 #footer{
   background-color: rgba(0, 0, 0, 0.8);
   color: #eaebed;
