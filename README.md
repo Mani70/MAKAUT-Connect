@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/BytesClub/MAKAUT-Connect.svg?branch=master)](https://travis-ci.org/BytesClub/MAKAUT-Connect)
 [![Issues](https://img.shields.io/github/issues/BytesClub/MAKAUT-Connect.svg)](https://github.com/BytesClub/MAKAUT-Connect/issues)
 [![Pull Request](https://img.shields.io/github/issues-pr/BytesClub/MAKAUT-Connect.svg)](https://github.com/BytesClub/MAKAUT-Connect/pulls)
+[![Releases](https://img.shields.io/github/release/BytesClub/MAKAUT-Connect.svg)](https://github.com/BytesClub/MAKAUT-Connect/releases)
 [![gitter](https://badges.gitter.im/gitterHQ/gitterHQ.github.io.svg)](https://gitter.im/Bytes_Club/General)
 
 A Social platform for Student Portal of Maulana Abul Kalam Azaad Univerity of Technology In-house Students
