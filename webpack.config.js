@@ -12,8 +12,8 @@ module.exports = {
   entry: APP_DIR + '/app.jsx',
   output: {
     path: BUILD_DIR,
-    filename: 'app.js',
-    publicPath: PUBLIC_DIR 
+    filename: 'app.js' //,
+    // publicPath: PUBLIC_DIR 
   },
   module : {
     loaders : [
