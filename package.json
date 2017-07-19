@@ -15,7 +15,7 @@
   "scripts": {
     "test": "echo \"Succesful\" && exit 0",
     "build": "webpack",
-    "start": "node server.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",

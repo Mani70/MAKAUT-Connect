@@ -1,19 +1,15 @@
-const webpack = require('webpack'),
-      path = require('path'),
-      PACKAGE = require('./package.json')
+const path    = require('path'),
+      plugins = require('./Plugins');
 
-var BUILD_DIR = path.resolve(__dirname, 'static/scripts')
-var PUBLIC_DIR = path.resolve(__dirname, 'static')
-var APP_DIR = path.resolve(__dirname, 'components')
-
-let banner = PACKAGE.name + ' - ' + PACKAGE.version + ' | ' + '(C) ' + new Date().getFullYear() + ',  ' + PACKAGE.author + ' | ' + PACKAGE.license + ' | ' + PACKAGE.homepage
+var BUILD_DIR  = path.resolve(__dirname, 'Static/Assets/js'),
+    PUBLIC_DIR = path.resolve(__dirname, 'Static'),
+    APP_DIR    = path.resolve(__dirname, 'Views');
 
 module.exports = {
-  entry: APP_DIR + '/app.jsx',
+  entry: APP_DIR + '/index.js',
   output: {
     path: BUILD_DIR,
-    filename: 'app.js' //,
-    // publicPath: PUBLIC_DIR 
+    filename: 'app.js'
   },
   module : {
     loaders : [
@@ -24,10 +20,5 @@ module.exports = {
       }
     ]
   },
-  plugins: [
-    new webpack.DefinePlugin({
-      __DEV__: process.env.BUILD_DEV && 'true'
-    }),
-    new webpack.BannerPlugin(banner)
-  ]
-}
+  plugins: plugins
+};
